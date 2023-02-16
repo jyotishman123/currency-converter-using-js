@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=IBM+Plex+Sans+Arabic:wght@100&family=Lobster&family=Meow+Script&family=Merriweather:ital,wght@0,300;1,400&family=Mochiy+Pop+P+One&family=Orelega+One&family=Oswald:wght@500;700&family=Outfit:wght@100&family=Poppins:wght@400;500;600&family=Raleway:wght@400;500;600&display=swap');
+*{margin: 0;padding: 0;}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 208, 255);
+}
+
+.main-area{
+    height: 480px;
+    width: 320px;
+    background-color: #fff;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+}
+
+.head{
+    /* border: 1px solid red;
+     */
+     border-bottom: 1px solid gray;
+    padding: 15px;
+    max-width: 100%;
+    margin: 15px auto;
+    text-align: center;
+    color: rgb(30, 30, 248);
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+.country{
+     
+    padding: 15px;
+}
+#country{
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    display: block;
+    outline: none;
+    border: 1px solid gray;
+}
+button{
+    display: block;
+    margin: 15px auto;
+    background-color: rgb(5, 130, 248);
+     color: #fff;
+     outline: none;
+     border: 0;
+     padding: 7px 10px;
+     cursor: pointer;
+}
+ 
+input{
+    width: 50%;
+padding: 10px;
+margin: auto;
+display: block;
+outline: none;
+border: 1px solid gray;
+margin: 25px auto;
+}
+
+.result{
+
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    outline: none;
+    border: 1px solid gray;
+    margin: 20px auto;
+
+}
+ 
+.fun{
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+ 
